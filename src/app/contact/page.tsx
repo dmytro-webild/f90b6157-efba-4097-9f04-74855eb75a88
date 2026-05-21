@@ -22,7 +22,7 @@ export default function ContactPage() {
                 description="Let's collaborate on your next creative masterpiece."
                 inputs={[{ name: "name", type: "text", placeholder: "Name", required: true }, { name: "email", type: "email", placeholder: "Email", required: true }]}
                 textarea={{ name: "message", placeholder: "Tell us about your creative needs or project requirements", rows: 5 }}
-                buttonText="Send"
+                buttonText="Request a Consultation"
                 useInvertedBackground={false}
             />
         </div>
