@@ -9,7 +9,7 @@ import { Github, Linkedin, Twitter } from "lucide-react";
 
 export default function AboutPage() {
   return (
-    <ThemeProvider>
+    <ThemeProvider defaultButtonVariant="hover-magnetic" defaultTextAnimation="entrance-slide" borderRadius="rounded" contentWidth="medium" sizing="medium" background="circleGradient" cardStyle="glass-elevated" primaryButtonStyle="gradient" secondaryButtonStyle="glass" headingFontWeight="normal">
       <ReactLenis root>
         <NavbarLayoutFloatingInline
             navItems={[{ name: "Home", id: "/" }, { name: "About", id: "/about" }, { name: "Contact", id: "/contact" }]}
@@ -25,6 +25,7 @@ export default function AboutPage() {
                     { title: "Mission", description: "Building the next era of creative tools." },
                     { title: "Vision", description: "A world where tech removes barriers to expression." },
                 ]}
+                useInvertedBackground={false}
             />
         </div>
         <FooterCard
