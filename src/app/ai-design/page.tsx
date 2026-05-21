@@ -8,7 +8,7 @@ import { Github, Twitter, Linkedin } from "lucide-react";
 
 export default function AIDesignPage() {
   return (
-    <ThemeProvider>
+    <ThemeProvider defaultButtonVariant="hover-magnetic" defaultTextAnimation="entrance-slide" borderRadius="rounded" contentWidth="medium" sizing="medium" background="circleGradient" cardStyle="glass-elevated" primaryButtonStyle="gradient" secondaryButtonStyle="glass" headingFontWeight="normal">
       <NavbarLayoutFloatingInline
         navItems={[
           { name: "Home", id: "/" },
@@ -18,11 +18,11 @@ export default function AIDesignPage() {
           { name: "Contact", id: "/contact" },
         ]}
         brandName="BlackArtTech"
+        button={{ text: "Get Started", href: "/contact" }}
       />
       <HeroBillboardScroll
         title="AI Design Solutions"
         description="Premium, gold-standard AI-driven design services for modern creators. Let our intelligent algorithms transform your artistic vision into high-fidelity digital reality."
-        background={{ variant: "sparkles-gradient" }}
         buttons={[{ text: "WhatsApp Us", href: "https://wa.me/your-number" }]}
       />
       <FooterCard
