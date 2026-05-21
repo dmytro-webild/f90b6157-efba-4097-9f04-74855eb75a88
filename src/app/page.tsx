@@ -108,7 +108,7 @@ export default function LandingPage() {
         { id: "5", name: "Generative Station", price: "$899", imageSrc: "http://img.b2bpic.net/free-photo/black-creative-person-using-pencil-draw-vase-design-canvas-easel-workshop-space-home-african-american-artist-drawing-modern-masterpiece-successful-fine-art-hobby_482257-33994.jpg" },
         { id: "6", name: "SculptMaster Pro", price: "$349", imageSrc: "http://img.b2bpic.net/free-photo/vr-glasses-cell-phone-wooden-desk_1387-986.jpg" },
       ]}
-      title="Our Solutions"
+      title="Professional Tools for Modern Creators"
       description="Discover high-performance software and hardware for creators."
     />
   </div>
@@ -181,8 +181,7 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterCard
-      logoText="BlackArtTech
-"
+      logoText="BlackArtTech"
       copyrightText="© 2025 BlackArtTech Technologies. All rights reserved."
       socialLinks={[
         { icon: Github, href: "#", ariaLabel: "Github" },
