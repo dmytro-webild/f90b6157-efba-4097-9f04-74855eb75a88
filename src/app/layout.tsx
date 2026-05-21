@@ -7,6 +7,7 @@ import { ServiceWrapper } from "@/components/ServiceWrapper";
 import { getVisualEditScript } from "@/utils/visual-edit-script";
 import { Open_Sans } from "next/font/google";
 import { Raleway } from "next/font/google";
+import { Mulish } from "next/font/google";
 
 
 
@@ -22,8 +23,9 @@ export const metadata: Metadata = {
 };
 
 
-const raleway = Raleway({
-  variable: "--font-raleway",
+
+const mulish = Mulish({
+  variable: "--font-mulish",
   subsets: ["latin"],
 });
 
@@ -35,7 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${raleway.variable} antialiased`}>
+        <body className={`${mulish.variable} antialiased`}>
           
           {children}
           <script
