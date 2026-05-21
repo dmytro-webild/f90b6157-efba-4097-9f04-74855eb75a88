@@ -43,11 +43,11 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroBillboardScroll
-      title="BlackArtTech Innovations"
+      title="Black Art Tech"
       description="Maximize your creative ROI with enterprise-grade tools built to accelerate professional production and streamline your art-to-market pipeline."
       background={{ variant: "plain" }}
       buttons={[{ text: "Explore Platforms", href: "#products" }]}
-      imageSrc="http://img.b2bpic.net/free-photo/3d-modern-techno-background-with-abstract-cyber-particles_1048-12198.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3E1H0csljJm0pGYMqLxSVNxfuDO/uploaded-1779341956401-7puxwe93.png"
     />
   </div>
 
