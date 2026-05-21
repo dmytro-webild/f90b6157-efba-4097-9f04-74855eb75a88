@@ -6,6 +6,7 @@ import "@/lib/gsap-setup";
 import { ServiceWrapper } from "@/components/ServiceWrapper";
 import { getVisualEditScript } from "@/utils/visual-edit-script";
 import { Open_Sans } from "next/font/google";
+import { Raleway } from "next/font/google";
 
 
 
@@ -20,8 +21,9 @@ export const metadata: Metadata = {
   },
 };
 
-const openSans = Open_Sans({
-  variable: "--font-open-sans",
+
+const raleway = Raleway({
+  variable: "--font-raleway",
   subsets: ["latin"],
 });
 
@@ -33,7 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${openSans.variable} antialiased`}>
+        <body className={`${raleway.variable} antialiased`}>
           
           {children}
           <script
