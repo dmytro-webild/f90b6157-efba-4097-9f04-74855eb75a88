@@ -175,7 +175,7 @@ export default function LandingPage() {
         { name: "email", type: "email", placeholder: "Email Address", required: true },
       ]}
       textarea={{ name: "requirements", placeholder: "Describe your creative needs or project requirements", rows: 5 }}
-      buttonText="Send Message"
+      buttonText="Request a Consultation"
       imageSrc="http://img.b2bpic.net/free-photo/empty-ai-tech-agency-workspace-providing-custom-software-development-services_482257-120228.jpg"
     />
   </div>
