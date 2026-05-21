@@ -5,7 +5,7 @@ import ReactLenis from "lenis/react";
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FeatureCardTen from '@/components/sections/feature/FeatureCardTen';
 import FooterCard from '@/components/sections/footer/FooterCard';
-import HeroLogo from '@/components/sections/hero/HeroLogo';
+import HeroBillboardScroll from '@/components/sections/hero/HeroBillboardScroll';
 import MetricCardFourteen from '@/components/sections/metrics/MetricCardFourteen';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import PricingCardFive from '@/components/sections/pricing/PricingCardFive';
@@ -43,8 +43,8 @@ export default function LandingPage() {
   </div>
 
   <div id="hero" data-section="hero">
-      <HeroLogo
-      logoText="BlackArtTech"
+      <HeroBillboardScroll
+      title="BlackArtTech Innovations"
       description="Maximize your creative ROI with enterprise-grade tools built to accelerate professional production and streamline your art-to-market pipeline."
       buttons={[{ text: "Explore Platforms", href: "#products" }]}
       imageSrc="http://img.b2bpic.net/free-photo/3d-modern-techno-background-with-abstract-cyber-particles_1048-12198.jpg"
@@ -120,10 +120,10 @@ export default function LandingPage() {
       useInvertedBackground={true}
       plans={[
         {
-          id: "basic", tag: "Starter", price: "$49", period: "/mo", description: "For individual artists starting out.", button: { text: "Choose Basic" }, featuresTitle: "Included", features: ["Core Access", "Cloud Storage", "Email Support"]
+          id: "basic", tag: "Starter", price: "$49", period: "/mo", description: "For individual artists starting out.", button: { text: "Start Basic" }, featuresTitle: "Included", features: ["Core Access", "Cloud Storage", "Email Support"]
         },
         {
-          id: "pro", tag: "Professional", price: "$149", period: "/mo", description: "For power users & studio designers.", button: { text: "Choose Pro" }, featuresTitle: "Everything in Basic, plus:", features: ["Advanced AI", "Collaborative Tools", "Priority Support"]
+          id: "pro", tag: "Professional", price: "$149", period: "/mo", description: "For power users & studio designers.", button: { text: "Get Pro" }, featuresTitle: "Everything in Basic, plus:", features: ["Advanced AI", "Collaborative Tools", "Priority Support"]
         },
         {
           id: "ent", tag: "Enterprise", price: "$499", period: "/mo", description: "For enterprise team workflows.", button: { text: "Contact Us" }, featuresTitle: "Everything in Pro, plus:", features: ["On-premise Options", "Dedicated Agent", "SLA Support"]
