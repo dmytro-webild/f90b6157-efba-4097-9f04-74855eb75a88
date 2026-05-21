@@ -62,7 +62,7 @@ export default function LandingPage() {
         { title: "Advanced Engineering", description: "Built on industry-leading stacks for maximum performance." },
         { title: "Creative Empowerment", description: "Tools that remove technical barriers for artists." },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/ai-llm-chatbot-software-interface-pc-home-office-showing-virtual-assistant_482257-113943.jpg"
+      imageSrc="https://img.b2bpic.net/premium-photo/digital-circuitry-connectivity-technology_1359-85411.jpg?id=424866438"
       mediaAnimation="slide-up"
     />
   </div>
@@ -74,17 +74,17 @@ export default function LandingPage() {
       useInvertedBackground={true}
       features={[
         {
-          title: "AI Art Integration",          description: "Seamlessly integrate generated assets into your pipeline.",          media: { imageSrc: "http://img.b2bpic.net/free-photo/notification-bell-right-side_187299-44732.jpg", imageAlt: "tech software dashboard creative" },
+          title: "AI Art Integration",          description: "Seamlessly integrate generated assets into your pipeline.",          media: { imageSrc: "https://img.b2bpic.net/free-photo/business-people-shaking-hands-together_53876-20488.jpg?id=2825692", imageAlt: "tech software dashboard creative" },
           items: [{ text: "Smart Layers", icon: Zap }, { text: "Instant Rendering", icon: CheckCircle }],
           reverse: false,
         },
         {
-          title: "Cultural Nodes",          description: "Collaborate within our secure digital workspace environments.",          media: { imageSrc: "http://img.b2bpic.net/free-photo/male-investor-looking-stock-trade-sales-computer-using-financial-statistics-plan-business-investment-growth-market-analyst-working-with-real-time-forex-exchange-graphs_482257-40949.jpg", imageAlt: "tech software dashboard creative" },
+          title: "Cultural Nodes",          description: "Collaborate within our secure digital workspace environments.",          media: { imageSrc: "https://img.b2bpic.net/premium-photo/meeting-colleagues-business-partners-brainstorm-discuss-strategy-analysis-investment-scenarios-planning-new-business-projects_1016675-8320.jpg?id=372537056", imageAlt: "tech software dashboard creative" },
           items: [{ text: "Real-time Sync", icon: Star }, { text: "Version Control", icon: Award }],
           reverse: true,
         },
         {
-          title: "Scalable Cloud",          description: "Host your masterpieces on globally distributed infrastructures.",          media: { imageSrc: "http://img.b2bpic.net/free-photo/technology-background-texture_23-2148105487.jpg", imageAlt: "tech software dashboard creative" },
+          title: "Scalable Cloud",          description: "Host your masterpieces on globally distributed infrastructures.",          media: { imageSrc: "https://img.b2bpic.net/premium-photo/dynamic-office-meeting-with-business-team-cityscape-overlook-night-stylish-interior-design_937679-77490.jpg?id=382404609", imageAlt: "tech software dashboard creative" },
           items: [{ text: "Global CDN", icon: Shield }, { text: "Auto-Scaling", icon: Sparkles }],
           reverse: false,
         },
@@ -181,7 +181,8 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterCard
-      logoText="BlackArtTech"
+      logoText="BlackArtTech
+"
       copyrightText="© 2025 BlackArtTech Technologies. All rights reserved."
       socialLinks={[
         { icon: Github, href: "#", ariaLabel: "Github" },
