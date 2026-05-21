@@ -9,7 +9,7 @@ import { Github, Linkedin, Twitter } from "lucide-react";
 
 export default function ContactPage() {
   return (
-    <ThemeProvider>
+    <ThemeProvider defaultButtonVariant="hover-magnetic" defaultTextAnimation="entrance-slide" borderRadius="rounded" contentWidth="medium" sizing="medium" background="circleGradient" cardStyle="glass-elevated" primaryButtonStyle="gradient" secondaryButtonStyle="glass" headingFontWeight="normal">
       <ReactLenis root>
         <NavbarLayoutFloatingInline
             navItems={[{ name: "Home", id: "/" }, { name: "About", id: "/about" }, { name: "Contact", id: "/contact" }]}
@@ -23,6 +23,7 @@ export default function ContactPage() {
                 inputs={[{ name: "name", type: "text", placeholder: "Name", required: true }, { name: "email", type: "email", placeholder: "Email", required: true }]}
                 textarea={{ name: "message", placeholder: "Your message", rows: 5 }}
                 buttonText="Send"
+                useInvertedBackground={false}
             />
         </div>
         <FooterCard
