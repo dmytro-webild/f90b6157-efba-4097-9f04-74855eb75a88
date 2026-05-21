@@ -45,7 +45,7 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroLogo
       logoText="BlackArtTech"
-      description="Pioneering the intersection of cultural expression and advanced digital engineering. We craft the tools of the future."
+      description="Maximize your creative ROI with enterprise-grade tools built to accelerate professional production and streamline your art-to-market pipeline."
       buttons={[{ text: "Explore Platforms", href: "#products" }]}
       imageSrc="http://img.b2bpic.net/free-photo/3d-modern-techno-background-with-abstract-cyber-particles_1048-12198.jpg"
     />
