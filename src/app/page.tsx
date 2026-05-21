@@ -32,14 +32,12 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingInline
       navItems={[
+        { name: "Home", id: "/" },
         { name: "About", id: "/about" },
-        { name: "AI Design", id: "/ai-design" },
-        { name: "Features", id: "#features" },
-        { name: "Pricing", id: "#pricing" },
-        { name: "Contact", id: "#contact" },
+        { name: "Contact", id: "/contact" },
       ]}
       brandName="BlackArtTech"
-      button={{ text: "Get Started", href: "#contact" }}
+      button={{ text: "Get Started", href: "/contact" }}
     />
   </div>
 
