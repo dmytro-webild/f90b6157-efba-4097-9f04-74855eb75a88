@@ -67,7 +67,7 @@ export default function LandingPage() {
           href: "#products",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/3d-modern-techno-background-with-abstract-cyber-particles_1048-12198.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/3d-modern-techno-background-with-abstract-cyber-particles_1048-12198.jpg?_wi=1"
     />
   </div>
 
@@ -91,7 +91,7 @@ export default function LandingPage() {
           description: "Tools that remove technical barriers for artists.",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/ai-llm-chatbot-software-interface-pc-home-office-showing-virtual-assistant_482257-113943.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/ai-llm-chatbot-software-interface-pc-home-office-showing-virtual-assistant_482257-113943.jpg?_wi=1"
       mediaAnimation="slide-up"
     />
   </div>
@@ -119,7 +119,7 @@ export default function LandingPage() {
             },
           ],
           reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/3d-modern-techno-background-with-abstract-cyber-particles_1048-12198.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/3d-modern-techno-background-with-abstract-cyber-particles_1048-12198.jpg?_wi=2",
           imageAlt: "tech software dashboard creative",
         },
         {
@@ -139,7 +139,7 @@ export default function LandingPage() {
             },
           ],
           reverse: true,
-          imageSrc: "http://img.b2bpic.net/free-photo/ai-llm-chatbot-software-interface-pc-home-office-showing-virtual-assistant_482257-113943.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/ai-llm-chatbot-software-interface-pc-home-office-showing-virtual-assistant_482257-113943.jpg?_wi=2",
           imageAlt: "tech software dashboard creative",
         },
         {
@@ -159,7 +159,7 @@ export default function LandingPage() {
             },
           ],
           reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/minimal-style-device-screen_23-2151913297.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/minimal-style-device-screen_23-2151913297.jpg?_wi=1",
           imageAlt: "tech software dashboard creative",
         },
       ]}
@@ -179,7 +179,7 @@ export default function LandingPage() {
           id: "1",
           name: "ArtCore Engine",
           price: "$199",
-          imageSrc: "http://img.b2bpic.net/free-photo/minimal-style-device-screen_23-2151913297.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/minimal-style-device-screen_23-2151913297.jpg?_wi=2",
         },
         {
           id: "2",
