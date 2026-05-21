@@ -101,12 +101,12 @@ export default function LandingPage() {
       gridVariant="bento-grid"
       useInvertedBackground={false}
       products={[
-        { id: "1", name: "ArtCore Engine", price: "$199", imageSrc: "http://img.b2bpic.net/free-photo/minimal-style-device-screen_23-2151913297.jpg" },
-        { id: "2", name: "VR Vision Lens", price: "$499", imageSrc: "http://img.b2bpic.net/free-photo/virtual-reality-headset-desk_23-2148912813.jpg" },
-        { id: "3", name: "Toolkit Prime", price: "$99", imageSrc: "http://img.b2bpic.net/free-photo/people-using-mobile-phone_53876-26374.jpg" },
-        { id: "4", name: "CloudArt Hub", price: "$29", imageSrc: "http://img.b2bpic.net/free-photo/closeup-photo-turned-digital-midi-controller_400718-29.jpg" },
-        { id: "5", name: "Generative Station", price: "$899", imageSrc: "http://img.b2bpic.net/free-photo/black-creative-person-using-pencil-draw-vase-design-canvas-easel-workshop-space-home-african-american-artist-drawing-modern-masterpiece-successful-fine-art-hobby_482257-33994.jpg" },
-        { id: "6", name: "SculptMaster Pro", price: "$349", imageSrc: "http://img.b2bpic.net/free-photo/vr-glasses-cell-phone-wooden-desk_1387-986.jpg" },
+        { id: "1", name: "ArtCore Engine", price: "$199 - High-fidelity AI core for professional rendering.", imageSrc: "http://img.b2bpic.net/free-photo/minimal-style-device-screen_23-2151913297.jpg" },
+        { id: "2", name: "VR Vision Lens", price: "$499 - Immersive 3D design and spatial prototyping tool.", imageSrc: "http://img.b2bpic.net/free-photo/virtual-reality-headset-desk_23-2148912813.jpg" },
+        { id: "3", name: "Toolkit Prime", price: "$99 - Comprehensive workflow management for creative teams.", imageSrc: "http://img.b2bpic.net/free-photo/people-using-mobile-phone_53876-26374.jpg" },
+        { id: "4", name: "CloudArt Hub", price: "$29 - Secure, scalable cloud storage for digital masterpieces.", imageSrc: "http://img.b2bpic.net/free-photo/closeup-photo-turned-digital-midi-controller_400718-29.jpg" },
+        { id: "5", name: "Generative Station", price: "$899 - Ultimate AI generation workstation for high-demand tasks.", imageSrc: "http://img.b2bpic.net/free-photo/black-creative-person-using-pencil-draw-vase-design-canvas-easel-workshop-space-home-african-american-artist-drawing-modern-masterpiece-successful-fine-art-hobby_482257-33994.jpg" },
+        { id: "6", name: "SculptMaster Pro", price: "$349 - Advanced 3D sculpting software with tactile controls.", imageSrc: "http://img.b2bpic.net/free-photo/vr-glasses-cell-phone-wooden-desk_1387-986.jpg" },
       ]}
       title="Professional Tools for Modern Creators"
       description="Discover high-performance software and hardware for creators."
